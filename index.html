@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Balandzio 1</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 id="manoh1">Sveikinu su Balandzio 1-aja!</h1>
+
+    <p id="manoP">Pykšt šaulys kiškelį, o tas - stryk Mėnulin
+        Ten kopūstus graužia ir po kelmu guli.
+
+        Lapė atsisėdus ant laktos užgrojo -
+        Tuojau pulkas vištų suktiniui sustojo.
+
+        Dviračiu sau gervė leidžias nuo kalnelio.
+        Žiogas gano briedžius ežere prie kelio.
+
+        Sraigė su kuprine aplink Žemę eina,
+        Rūko sau cigarą ir dainuoja dainą.
+
+        Kiaunė kepa duoną - kvepia visas šilas,
+        Silkės krūmuos gieda, o lakštutė - tyli.</p>
+        
+    <button onclick="balandzioPirma();">Spausti</button>
+
+    <script>
+        
+        function balandzioPirma(){
+        
+        document.getElementById('manoh1').style.fontFamily = 'Pacifico';
+        document.getElementById('manoh1').style.color = 'navy';
+
+        document.getElementById('manoP').style.fontFamily = 'Fjalla One';
+        document.getElementById('manoP').style.fontSize = '25px';
+        document.getElementById('manoP').style.color = 'crimson';
+        document.body.style.backgroundImage = 'url(joke.png)';
+        document.body.style.backgroundImage.repeat = 'no reapeat';
+        document.body.style.backgroundRepeat = 'no-reapeat';
+        document.body.style.backgroundPosition = 'center';
+          };
+    </script>
+
+</body>
+
+</html>
